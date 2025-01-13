@@ -1,0 +1,5 @@
+#  Best, Worst, and Average Case
+
+It is important to note - that not all algorithms require the same time as the input grows. As an examples, if we are looking for a specific value K in an array, we can search in a non linear way. Therefore, allowing us to not examine every element in the array. Unlike looking through the array to find the largest value, which does require going through each element in the array.
+
+If we take our example of finding a specific value, it's possible that we find  k in the first examination, only requiring us to look at one value. We would consider this the **best case**. Another scenario is possible, where K is the last item in the array, requiring us to go through each element. We call this **worst case**. Lastly, if we attempted to run this algorithm a on a randomized input, we would fin the algorithm would go half way on average. we call this the **average case** of an algorithm. 
